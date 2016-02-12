@@ -68,20 +68,20 @@
 /* COLORS ----------------------------*/
 
 // the main/primary color
-$main-color: #E40A5D !default;
+$main-color: #DB0A5B !default;
 // button colors
-$button-text-color: #f1f1f1;
+$button-text-color: #ffffff;
 $button-box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !default;
 // labels colors
-$label-text-color: rgba(255, 255, 255, 0.8) !default;
+$label-text-color: rgba(255, 255, 255, 1) !default;
 // labels background
-$label-background-color: rgba(0,0,0, .4);
+$label-background-color: rgba(0,0,0, 1);
 /* EFFECTS ---------------------------*/
 
 // which effects must be made available in the css
 $effects-zoomin: true !default;
-$effects-slidein: true !default;
-$effects-fountain: true !default;
+$effects-slidein: false !default;
+$effects-fountain: false !default;
 
 /* SPEEDS ----------------------------*/
 
@@ -99,13 +99,13 @@ $label-hover-on: .3s !default;
 // main button diameter
 $main-button-size: 56px !default;
 // main button diameter
-$child_button_size: 56px !default;
+$child_button_size: 48px !default;
 // the distance of the main button from the closest corners of the screen
 $border-distance: 25px !default;
 // font-size for the icons
 $icons-font-size: 18px !default;
 // font-size for labels
-$labels-font-size: 14px !default;
+$labels-font-size: 12px !default;
 // font-weight for labels
 $labels-font-weight: normal !default;
 // top & bottom padding for the labels
@@ -123,7 +123,7 @@ $button-label-space: 70px !default;
 /* OTHER VARIABLES -------------------*/
 
 // how many child buttons does the component have
-$number-of-child-buttons: 4 !default;
+$number-of-child-buttons: 6 !default;
 
 /*------------------------------------*\
     #BASE | Raw styles
