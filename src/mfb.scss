@@ -141,7 +141,7 @@ $number-of-child-buttons: 6 !default;
   margin: $border-distance;
   position: fixed;
   white-space: nowrap;
-  z-index: 30;
+  z-index: 3000;
   // this padding is really needed  only if the element is an <ul>
   // otherwise it can probably be ditched.
   padding-left: 0;
@@ -260,7 +260,7 @@ $number-of-child-buttons: 6 !default;
   @extend %mfb-component__button;
   height: $main-button-size;
   width: $main-button-size;
-  z-index: 20;
+  z-index: 2000;
 }
 .mfb-component__button--child{
   @extend %mfb-component__button;
